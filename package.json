@@ -1,0 +1,24 @@
+{
+  "name": "travlr",
+  "version": "1.0.0",
+  "description": "CS-465 Full Stack Development with MEAN",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aaron-jones8/cs465-fullstack.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/aaron-jones8/cs465-fullstack/issues"
+  },
+  "homepage": "https://github.com/aaron-jones8/cs465-fullstack#readme",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
