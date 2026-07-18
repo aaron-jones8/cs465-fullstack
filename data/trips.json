@@ -1,0 +1,32 @@
+[
+    {
+        "code": "GALR210214",
+        "name": "Hawaii Adventure",
+        "length": "7 nights",
+        "start": "2026-08-14",
+        "resort": "Aloha Resort & Spa",
+        "perPerson": "1899.00",
+        "image": "reef1.jpg",
+        "description": "Explore the beaches and volcanic landscapes of Hawaii with guided tours and beachfront relaxation included."
+    },
+    {
+        "code": "GALR230414",
+        "name": "Caribbean Escape",
+        "length": "5 nights",
+        "start": "2026-09-05",
+        "resort": "Blue Waters Resort",
+        "perPerson": "1499.00",
+        "image": "reef2.jpg",
+        "description": "Snorkel through vibrant reefs and unwind on white sand beaches in this all-inclusive Caribbean getaway."
+    },
+    {
+        "code": "GALR230917",
+        "name": "Coastal Kayaking Retreat",
+        "length": "4 nights",
+        "start": "2026-10-02",
+        "resort": "Seabreeze Lodge",
+        "perPerson": "999.00",
+        "image": "kayak.jpg",
+        "description": "A guided kayaking retreat along the coast, perfect for adventure seekers looking to explore hidden coves."
+    }
+]

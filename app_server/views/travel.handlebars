@@ -1,0 +1,17 @@
+<div class="box">
+    <h1>{{title}}</h1>
+    <div id="trip-list">
+        {{#each trips}}
+        <div class="trip-card">
+            <img src="/images/{{this.image}}" alt="{{this.name}}" width="200">
+            <h3>{{this.name}}</h3>
+            <p><strong>Resort:</strong> {{this.resort}}</p>
+            <p><strong>Length:</strong> {{this.length}}</p>
+            <p><strong>Starts:</strong> {{this.start}}</p>
+            <p><strong>Price per person:</strong> ${{this.perPerson}}</p>
+            <p>{{this.description}}</p>
+        </div>
+        <hr>
+        {{/each}}
+    </div>
+</div>

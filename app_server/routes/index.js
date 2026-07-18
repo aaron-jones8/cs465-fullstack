@@ -4,5 +4,6 @@ const travelController = require('../controllers/travel');
 
 router.get('/', travelController.homelist);
 router.get('/about', travelController.about);
+router.get('/travel', travelController.travel);
 
 module.exports = router;
