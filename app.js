@@ -2,6 +2,8 @@ const express = require('express');
 const path = require('path');
 const { engine } = require('express-handlebars');
 
+require('./app_api/models/db');
+
 const app = express();
 
 // View engine setup
