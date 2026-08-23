@@ -4,9 +4,11 @@ const { engine } = require('express-handlebars');
 const cors = require('cors');
 require('./app_api/models/db');
 const app = express();
+const passport = require('./app_api/config/passport');
 
 app.use(express.json());
 app.use(cors());
+app.use(passport.initialize());
 
 // View engine setup
 app.engine('handlebars', engine());

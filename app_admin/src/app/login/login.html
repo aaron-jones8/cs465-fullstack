@@ -1,0 +1,17 @@
+<div class="container mt-4">
+  <h2>Admin Login</h2>
+
+  <div *ngIf="errorMessage" class="alert alert-danger">{{ errorMessage }}</div>
+
+  <form (ngSubmit)="onSubmit()" #loginForm="ngForm">
+    <div class="mb-3">
+      <label class="form-label">Email</label>
+      <input type="email" class="form-control" name="email" [(ngModel)]="email" required>
+    </div>
+    <div class="mb-3">
+      <label class="form-label">Password</label>
+      <input type="password" class="form-control" name="password" [(ngModel)]="password" required>
+    </div>
+    <button type="submit" class="btn btn-primary" [disabled]="!loginForm.valid">Log In</button>
+  </form>
+</div>

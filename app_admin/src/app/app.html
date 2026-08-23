@@ -1,6 +1,12 @@
 <main class="container mt-4">
   <h1>Travlr Getaways Admin</h1>
-  <a routerLink="/add-trip" class="btn btn-success mb-3">Add New Trip</a>
+
+  <div class="mb-3">
+    <a *ngIf="!authService.isLoggedIn()" routerLink="/login" class="btn btn-outline-primary">Log In</a>
+    <a *ngIf="authService.isLoggedIn()" routerLink="/add-trip" class="btn btn-success">Add New Trip</a>
+    <button *ngIf="authService.isLoggedIn()" (click)="logout()" class="btn btn-outline-secondary">Log Out</button>
+  </div>
+
   <app-trip-listing></app-trip-listing>
 </main>
 
